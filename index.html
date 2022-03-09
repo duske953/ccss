@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <h1 class = "password">Welcome to your <span class = "pad">password</span> generator</h1>
+<div class="passwor">
+  <div class = "container">
+  <div class="row g-2">
+    <div class="col-lg-6">
+      <div class = "p-3 border bg-light">
+      <input  type="text" class="form-control letters p" placeholder="how many letters do you want">
+      </div>
+    </div>
+
+  <div class="col-lg-6">
+    <div class = "p-3 border bg-light">
+      <input  type="text" class="form-control numbers p" placeholder="how many numbers do you want">
+    </div>
+   </div>
+
+   <div class="col-lg-6 " id="symbol">
+     <div class = "p-3 border bg-light">
+       <input type="text" class="form-control symbols p" placeholder="how many symbols do you want">
+     </div>
+    </div>
+    </div>
+    <button type="button" class="btn btn-outline-dark btn-lg btn-submit">Generate</button>
+    <button type="button" class="btn btn-outline-dark btn-lg btn-shuffle">re-shuffle</button>
+    </div>
+    <div class="col-lg-6 gen-p">
+      <div class = "p-3 border bg-light">
+        <input  type="text" class="form-control ge-p" value = "" placeholder="" readonly >
+      </div>
+     </div>
+        <button  type="button" class="btn btn-outline-dark btn-lg btn-lg sm" >copy</button>
+</div>
+<div class="footer">
+  <footer>
+<h4>With Love</h4>
+<h5>Eloho Kennedy</h5>
+<a href="https://www.instagram.com/__eloho__"><img src="https://img.icons8.com/ios/35/000000/instagram-new--v3.png"/></a>
+  </footer>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
