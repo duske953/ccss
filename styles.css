@@ -1,57 +1,59 @@
-
-.passwor{
+.passwor {
   text-align: center;
   padding-top: 1.8rem;
 }
-body{
+
+body {
   background-color: #DDDDDD
 }
 
-h1{
+h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   text-align: center;
   position: relative;
-  top:0.3em;
-}
-.container{
-}
-#symbol{
- margin: auto;
- margin-top: 1em;
+  top: 0.3em;
 }
 
-.btn-lg{
+.container {}
+
+#symbol {
+  margin: auto;
+  margin-top: 1em;
+}
+
+.btn-lg {
   margin-top: 1em;
   margin-right: 1em;
 }
 
-.footer{
+.footer {
   text-align: center;
   position: sticky;
-  margin-top: 11rem;
+
 }
 
-.gen-p{
+.footer__upwork a:link,
+.footer__upwork a:visited {
+  text-decoration: none;
+  color: #4dabf7;
+}
+
+.footer--main:link,
+.footer--main:visited {
+  text-decoration: none;
+  color: #555;
+}
+
+.gen-p {
   margin: auto;
   margin-top: 1em;
 
 }
 
- .sm{
-   opacity: 0;
-   visibility: hidden;
-   margin: auto;
+.sm {
+  opacity: 0;
+  visibility: hidden;
+  margin: auto;
 
- }
-
-footer h4{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
-}
-
-footer h5{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
